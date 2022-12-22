@@ -5,21 +5,10 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@babel/runtime@npm:^7.7.6":
-  version: 7.20.7
-  resolution: "@babel/runtime@npm:7.20.7"
-  dependencies:
-    regenerator-runtime: ^0.13.11
-  checksum: 4629ce5c46f06cca9cfb9b7fc00d48003335a809888e2b91ec2069a2dcfbfef738480cff32ba81e0b7c290f8918e5c22ddcf2b710001464ee84ba62c7e32a3a3
-  languageName: node
-  linkType: hard
-
-"history@npm:^5.2.0":
-  version: 5.3.0
-  resolution: "history@npm:5.3.0"
-  dependencies:
-    "@babel/runtime": ^7.7.6
-  checksum: d73c35df49d19ac172f9547d30a21a26793e83f16a78386d99583b5bf1429cc980799fcf1827eb215d31816a6600684fba9686ce78104e23bd89ec239e7c726f
+"@remix-run/router@npm:1.2.0":
+  version: 1.2.0
+  resolution: "@remix-run/router@npm:1.2.0"
+  checksum: faa5d0095e4ce1c5d1ec75db11e0fa77ac29db609187a562f69f90d9c1703095ac4dde25fd14dd33317c7658e52e358bdf31de8b57354ca693b51f047fbe88dd
   languageName: node
   linkType: hard
 
@@ -59,32 +48,32 @@ __metadata:
   dependencies:
     react: ^18.2.0
     react-dom: ^18.2.0
-    react-router-dom: 6.3.0
+    react-router-dom: 6.6.0
     typescript: ^4.9.4
   languageName: unknown
   linkType: soft
 
-"react-router-dom@npm:6.3.0":
-  version: 6.3.0
-  resolution: "react-router-dom@npm:6.3.0"
+"react-router-dom@npm:6.6.0":
+  version: 6.6.0
+  resolution: "react-router-dom@npm:6.6.0"
   dependencies:
-    history: ^5.2.0
-    react-router: 6.3.0
+    "@remix-run/router": 1.2.0
+    react-router: 6.6.0
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 77603a654f8a8dc7f65535a2e5917a65f8d9ffcb06546d28dd297e52adcc4b8a84377e0115f48dca330b080af2da3e78f29d590c89307094d36927d2b1751ec3
+  checksum: 93e949ede779fbc205c6716c304f83a5e62156064a1784365e3e756713126cc25ac1d774cd0d0cb3c3deebe5819c56345466159c8f95b9ed3788ee7915070687
   languageName: node
   linkType: hard
 
-"react-router@npm:6.3.0":
-  version: 6.3.0
-  resolution: "react-router@npm:6.3.0"
+"react-router@npm:6.6.0":
+  version: 6.6.0
+  resolution: "react-router@npm:6.6.0"
   dependencies:
-    history: ^5.2.0
+    "@remix-run/router": 1.2.0
   peerDependencies:
     react: ">=16.8"
-  checksum: 7be673f5e72104be01e6ab274516bdb932efd93305243170690f6560e3bd1035dd1df3d3c9ce1e0f452638a2529f43a1e77dcf0934fc8031c4783da657be13ca
+  checksum: 29580dfa0a156c81f96782a592b0af9599cb7c38e01dac86a5c050ad63dc89c6898b4e5f84fc0ab513f8b17ed776ed68b7d296b1b43225f24ce8cb699e48c653
   languageName: node
   linkType: hard
 
@@ -94,13 +83,6 @@ __metadata:
   dependencies:
     loose-envify: ^1.1.0
   checksum: 88e38092da8839b830cda6feef2e8505dec8ace60579e46aa5490fc3dc9bba0bd50336507dc166f43e3afc1c42939c09fe33b25fae889d6f402721dcd78fca1b
-  languageName: node
-  linkType: hard
-
-"regenerator-runtime@npm:^0.13.11":
-  version: 0.13.11
-  resolution: "regenerator-runtime@npm:0.13.11"
-  checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
   languageName: node
   linkType: hard
 
